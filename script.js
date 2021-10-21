@@ -26,7 +26,13 @@ document.getElementById('btnC').addEventListener('click',function(){
 document.getElementById('submitID').addEventListener('click',function(){
     if (document.getElementById('inputField').value == document.getElementById('generateField').value) {
         document.getElementById('go').style.display = 'block';
+        setTimeout(function(){
+            document.getElementById('go').style.display = 'none'
+        },2000)
     } else {
         document.getElementById('stop').style.display = 'block';
+        setTimeout(function(){
+            document.getElementById('stop').style.display = 'none'
+        },2000)
     }
 })
