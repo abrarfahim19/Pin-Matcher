@@ -55,7 +55,7 @@
     font-weight: bold;
 }
 
-.notify-section{
+.notifySection{
     margin: 0 auto;
     width: 35%;
 }
@@ -68,4 +68,14 @@
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+}
+
+#generateField, #inputField {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#go, #stop{
+    display: none;
 }
